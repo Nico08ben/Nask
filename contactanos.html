@@ -1,1 +1,50 @@
-# Nask
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo/contactanos.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <!-- Add content to the header element here -->
+    </header>
+
+    <main>
+        <h2>Contacto</h2>
+        <h1>¿En que podemos ayudarte?</h1>
+        <label>
+            ¿Quieres hacer una pregunta, 
+            dar una sugerencia, reclamos o simplemente saludarnos? Envíanos un mensaje. ¡Estaremos atentos a cada palabra!
+        </label>
+        
+        <form  id="formurario" method="post">
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="surname">Apellido:</label><br>
+            <input type="text" id="surname" name="family-name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="subject">Selecciona un asunto:</label><br>
+            <select id="subject" name="subject" required>
+                <option value="">Selecciona una opción</option>
+                <option value="pregunta">Pregunta</option>
+                <option value="sugerencia">Sugerencia</option>
+                <option value="reclamo">Reclamo</option>
+                <option value="saludo">Saludo</option>
+            </select><br>
+
+            <label for="message">Mensaje:</label><br>
+            <textarea id="message" name="message" rows="4" cols="auto" required></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+
+    <footer>
+        <!-- Add content to the footer element here -->
+    </footer>
+
+</body>
+</html>
