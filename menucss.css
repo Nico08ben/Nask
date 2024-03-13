@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Ramabhadra&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ruluko&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend Deca", sans-serif; 
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background-color: #E0EFF4;
+}
+.logo{
+    max-width: 6rem;
+}
+.nav-lista{
+    list-style-type: none;
+    display: flex;
+    gap: 3.5rem;
+}
+.nav-lista li a{
+    text-decoration: none;
+    color: #000000;
+}
+.abrir-menu,
+.cerrar-menu{
+    display: none;
+}
+@media screen and (max-width: 600px) {
+
+    .abrir-menu,
+    .cerrar-menu{
+        display: block;
+        border: 0;
+        font-size: 1.50rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .abrir-menu{
+        color: #000000;
+    }
+
+    .cerrar-menu{
+        color: white;
+    }
+
+    .nav{
+        opacity: 0;
+        visibility: hidden;
+
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 2rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #649caf;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0,0,0,.5);
+        opacity: 1;
+
+    }
+
+    .nav.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+    .nav-lista{
+        flex-direction: column;
+        align-items: end;
+    }
+    .nav-lista li a{
+        color: #FFFFFF;
+    }
+}
