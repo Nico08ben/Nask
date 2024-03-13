@@ -13,20 +13,19 @@
 
     <main>
         <h2>Contacto</h2>
-        <h1>¿En que podemos ayudarte?</h1>
+        <h1>¿En qué podemos ayudarte?</h1>
         <label>
-            ¿Quieres hacer una pregunta, 
-            dar una sugerencia, reclamos o simplemente saludarnos? Envíanos un mensaje. ¡Estaremos atentos a cada palabra!
+            ¿Quieres hacer una pregunta, dar una sugerencia, hacer un reclamo o simplemente saludarnos? Envíanos un mensaje. ¡Estaremos atentos a cada palabra!
         </label>
-        
-        <form  id="formurario" method="post">
+    
+        <form id="formulario" method="post">
             <label for="name">Nombre:</label><br>
             <input type="text" id="name" name="name" required><br>
             <label for="surname">Apellido:</label><br>
-            <input type="text" id="surname" name="family-name" required><br>
+            <input type="text" id="surname" name="surname" required><br>
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email" required><br>
-
+    
             <label for="subject">Selecciona un asunto:</label><br>
             <select id="subject" name="subject" required>
                 <option value="">Selecciona una opción</option>
@@ -35,13 +34,27 @@
                 <option value="reclamo">Reclamo</option>
                 <option value="saludo">Saludo</option>
             </select><br>
-
+    
             <label for="message">Mensaje:</label><br>
-            <textarea id="message" name="message" rows="4" cols="auto" required></textarea><br>
-            <input type="submit" value="Enviar">
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+            <input type="submit" id="submit-button" value="Enviar"><br>
         </form>
-    </main>
+    
+        <script>
+            // Select the form element
+            const formElement = document.getElementById('formulario');
+          
+            // Add an event listener to the form element that listens for the 'submit' event
+            formElement.addEventListener('submit', (event) => {
+              // Prevent the default form submission behavior
+              event.preventDefault();
+          
+              // Redirect the user to Remplazo.html
+              window.location.href = 'Remplazo.html';
+            });
+          </script>
 
+    </main>
     <footer>
         <!-- Add content to the footer element here -->
     </footer>
