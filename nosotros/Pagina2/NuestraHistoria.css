@@ -1,0 +1,60 @@
+#Titulo1{
+    position: relative;
+    color: rgb(28, 24, 129);
+    font-size: 75px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 40px;
+}
+#p1{
+    position: relative;
+    color: black;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 800px;
+    margin: 10px; 
+    height: 400px;
+}
+#img1{
+    position: absolute;
+    left: 850px;
+    width: 400px;
+    top: 310px;
+}
+#titulo2{
+    position: relative;
+    color: rgb(28, 24, 129);
+    font-size: 75px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 40px;
+}
+#img2{
+    position: relative;
+    width: 250px;
+    margin: 30px;
+    left: 40px;
+    top: -120px;
+}
+#Nombre1{
+    position: relative;
+    color: rgb(28, 24, 129);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+    left: 35px;
+    top: 450px;
+}
+#subnom1{
+    position: relative;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+    left: 80px;
+    top: 430px;
+}
+#img3{
+    position: relative;
+    width: 250px;
+    margin: 30px;
+    left: 300px;
+    top: -120px;
+}

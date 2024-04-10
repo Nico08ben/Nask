@@ -13,7 +13,7 @@ body {
     position: absolute;
     width: 350px;
     left: 150px;
-    top: 170px;
+    top: 70px;
     z-index: 1;
 
 }
@@ -91,7 +91,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     height: 500px;
     z-index: 1;
     text-align: right;
-    top: -1000px;
+    top: -1200px;
     left: 700px;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -141,7 +141,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 }
 #pp4{
     position: relative;
-    top: -1900px;
+    top: -2100px;
     left: 680px;
     width: 500px;
     height: 500px;
