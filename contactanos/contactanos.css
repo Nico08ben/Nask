@@ -62,3 +62,6 @@ body {
     border-radius: 5px;
     box-sizing: border-box;
   }
+  footer{
+    top: 10rem;
+  }
