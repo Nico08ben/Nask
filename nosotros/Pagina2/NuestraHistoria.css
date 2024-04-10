@@ -13,12 +13,13 @@
     width: 800px;
     margin: 10px; 
     height: 400px;
+    margin: 40px;
 }
 #img1{
     position: absolute;
     left: 850px;
     width: 400px;
-    top: 310px;
+    top: 210px;
 }
 #titulo2{
     position: relative;
@@ -31,8 +32,8 @@
     position: relative;
     width: 250px;
     margin: 30px;
-    left: 40px;
-    top: -120px;
+    left: 10px;
+    top: -320px;
 }
 #Nombre1{
     position: relative;
@@ -40,7 +41,7 @@
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 20px;
-    left: 35px;
+    left: 45px;
     top: 450px;
 }
 #subnom1{
@@ -48,13 +49,92 @@
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 20px;
-    left: 80px;
-    top: 430px;
+    left: 60px;
+    top: 345px;
 }
 #img3{
     position: relative;
     width: 250px;
     margin: 30px;
-    left: 300px;
-    top: -120px;
+    left: 10px;
+    top: -320px;
+}
+#img4{
+    position: relative;
+    width: 250px;
+    margin: 30px;
+    left: 10px;
+    top: -320px;
+}
+#img5{
+    position: relative;
+    width: 250px;
+    margin: 30px;
+    left: 10px;
+    top: -320px;
+}
+.imagenes2{
+    position: relative;
+    height: 450px;
+}
+#Nombre1{
+    position: relative;
+    left: 10px;
+    top: 494px;
+
+}
+#Nombre2{
+    position: relative;
+    color: rgb(28, 24, 129);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+    left: 340px;
+    top: 450px;
+}
+#Nombre3{
+    position: relative;
+    color: rgb(28, 24, 129);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+    left: 970px;
+    top: 407px;
+}
+#Nombre4{
+    position: relative;
+    color: rgb(28, 24, 129);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+    left: 650px;
+    top: 365px;
+}
+#subnom2{
+    position: relative;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+    left: 405px;
+    top: 305px;
+}
+#subnom3{
+    position: relative;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+    left: 1050px;
+    top: 270px;
+}
+#subnom4{
+    position: relative;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+    left: 720px;
+    top: 230px;
+}
+.index{
+position: relative;
+height: 700px;
 }

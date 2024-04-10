@@ -212,7 +212,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 }
 main{
     width: max-content;
-    height: auto;
+    height: max-content;
 }
 footer{
     top: -4005px;
