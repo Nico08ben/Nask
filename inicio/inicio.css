@@ -8,7 +8,7 @@
 .content .par{
     padding-left: 20px;
     padding-bottom: 25px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #000000;
     font-family: "Lexend Deca", sans-serif;
     line-height: 30px;
@@ -121,5 +121,5 @@
     text-align: center;
 }
 footer {
-    top: 16rem;
+    top: 18rem;
 }
